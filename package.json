@@ -1,0 +1,19 @@
+{
+  "name": "ezserver",
+  "version": "1.0.0",
+  "description": "ezvisit server for managing the rest apis for developing mobile and web applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sripemma/ezserver.git"
+  },
+  "author": "Srinivasu Pemma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sripemma/ezserver/issues"
+  },
+  "homepage": "https://github.com/sripemma/ezserver#readme"
+}
