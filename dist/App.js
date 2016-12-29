@@ -2,6 +2,7 @@
 const express = require("express");
 const logger = require("morgan");
 const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
 // Creates and configures an ExpressJS web server.
 class App {
     //Run configuration methods on the Express instance.
@@ -15,6 +16,7 @@ class App {
         this.express.use(logger('dev'));
         this.express.use(bodyParser.json());
         this.express.use(bodyParser.urlencoded({ extended: false }));
+        mongoose.connect('mongodb://localhost/ezvisitserver');
     }
     // Configure API endpoints.
     routes() {
